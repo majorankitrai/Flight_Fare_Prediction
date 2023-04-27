@@ -16,10 +16,10 @@ def get_requirements(file_path:str)->List[str]:
 
 
 setup(
-    name='Flight_Fare_Prediction',
+    name='Flight Fare Prediction',
     version='0.0.1',
-    author='Ankit',
-    author_email='ankitrai0699@gmail.com',
+    author='Mudit',
+    author_email='muditarora.mi6@gmail.com',
     install_requires=get_requirements('requirements.txt'),
     packages=find_packages()
 )
